@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div>
-      <h1>Welkom bij Elektronica Expert</h1>
-      <p>De beste reviews over robotstofzuigers, airco’s, tv’s en meer!</p>
-    </div>
+    <main className="p-10">
+      <h1 className="text-3xl font-bold">Welkom bij Elektronica Expert</h1>
+      <p className="mt-4">Dé plek voor reviews en koopadvies over de nieuwste elektronica: van robotstofzuigers tot airco's en meer.</p>
+    </main>
   );
 }

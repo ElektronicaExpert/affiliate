@@ -1,12 +1,13 @@
 export default function Blog() {
   return (
-    <div>
-      <h1>Blog</h1>
-      <ul>
-        <li><a href="#">Beste robotstofzuigers van 2025</a></li>
-        <li><a href="#">Top 5 airco’s voor thuis</a></li>
-        <li><a href="#">Waar op letten bij smart tv’s?</a></li>
+    <main className="p-10">
+      <h1 className="text-2xl font-bold">Onze Blogartikelen</h1>
+      <ul className="list-disc ml-6 mt-4">
+        <li>De beste robotstofzuigers van 2025</li>
+        <li>Welke airco past bij jouw woning?</li>
+        <li>Vergelijking: Smart TV's onder de €1000</li>
+        <li>Top 5 bluetooth speakers met lange batterijduur</li>
       </ul>
-    </div>
+    </main>
   );
 }
